@@ -1,6 +1,6 @@
 {
-  "private": true,
   "type": "module",
+  "version": "1.0.1",
   "scripts": {
     "build": "node build.js",
     "test": "eslint . --report-unused-disable-directives && prettier --check . && npm run build && tsd && node benchmark.js && vitest run"
